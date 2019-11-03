@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'calculater-app';
+  calcButtons = ['7', '8', '9', '/', '4', '5', '6', '*', '1', '2', '3', '-', '0', 'C', '=', '+'];
+  result = ''
+
+  getResult(button){
+    console.log("clicked", button)
+    switch(button){
+      case 'C':
+        return this.result = ''
+
+      case '=':
+      return this.result = eval(this.result)
+
+      default:
+        return this.result += button
+    }
+  }
 }

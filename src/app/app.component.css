@@ -1,0 +1,33 @@
+.center{
+    text-align: center
+}
+
+.right{
+    text-align: right
+}
+
+.title{
+    color: white;
+    background-color: #242554;
+    margin-top: 0.5rem
+}
+
+.result{
+    color: white;
+}
+
+.main-div{
+    background-color: #03031a;
+    width: 20rem;
+    margin-top: 10rem;
+    padding: 1rem;
+}
+
+.calc-div-buttons{
+}
+
+.calc-buttons{
+    background-color: #242554;
+    width: -webkit-fill-available;
+    border: unset !important
+}
